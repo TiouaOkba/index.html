@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire : Réseaux Sociaux</title>
+</head>
+<body>
+    <h1>Questionnaire : Utilisation des Réseaux Sociaux</h1>
+    <form method="post" action="traitement.php">
+        <!-- Question 1 -->
+        <p>1. Utilisez-vous les réseaux sociaux pour des activités marketing ?</p>
+        <input type="radio" name="q1" id="oui" value="Oui">
+        <label for="oui">Oui</label><br>
+        <input type="radio" name="q1" id="non" value="Non">
+        <label for="non">Non</label><br>
+
+        <!-- Question 2 -->
+        <p>2. Quels réseaux sociaux utilisez-vous principalement ?</p>
+        <input type="checkbox" id="facebook">
+        <label for="facebook">Facebook</label><br>
+        <input type="checkbox" id="instagram">
+        <label for="instagram">Instagram</label><br>
+        <input type="checkbox" id="linkedin">
+        <label for="linkedin">LinkedIn</label><br>
+        <input type="checkbox" id="tiktok">
+        <label for="tiktok">TikTok</label><br>
+        <input type="checkbox" id="autre">
+        <label for="autre">Autre</label><br>
+
+        <!-- Question 3 -->
+        <p>3. Quels types de contenus publiez-vous généralement ?</p>
+        <input type="checkbox" id="photos">
+        <label for="photos">Photos</label><br>
+        <input type="checkbox" id="videos">
+        <label for="videos">Vidéos</label><br>
+        <input type="checkbox" id="stories">
+        <label for="stories">Stories</label><br>
+        <input type="checkbox" id="articles">
+        <label for="articles">Articles</label><br>
+
+        <!-- Question 4 -->
+        <p>4. Quel est le principal avantage des réseaux sociaux pour le marketing ?</p>
+        <textarea id="comment" rows="6" cols="40"></textarea><br>
+
+        <!-- Question 5 -->
+        <p>5. Quels défis rencontrez-vous dans l’utilisation des réseaux sociaux ?</p>
+        <textarea id="defis" rows="6" cols="40"></textarea><br>
+
+        <!-- Boutons -->
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Réinitialiser">
+    </form>
+</body>
+</html>
