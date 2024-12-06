@@ -53,3 +53,65 @@
     </form>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Nom - CV</title>
+</head>
+<body>
+    <h1>TIOUA Okba </h1>
+
+    <h2>Informations de contact</h2>
+    <ul>
+        <li>Nom : TIOUA Okba</li>
+        <li>Ville : Djelfa</li>
+        <li>email : <a href="mailto:votremail@example.com">okbatioua19@gmail.com</a></li>
+        <li>Téléphone : 0696507242</li>
+    </ul>
+    
+    <p>Actuellement étudiant en deuxième année master de spécialité E-BUSSINES à l’école ESGEN à ALger, je suis à la recherche d’un stage de X mois dans le cadre de ma formation</p>
+
+
+    <img src="photo.jpg" alt="Votre photo" width="200">
+
+    <ol>
+        <li><a href="#formation">Formation</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#interets">Centres d'intérêt</a></li>
+        <li><a href="infosup.html">Plus d'informations</a></li>
+    </ol>
+
+    <h2 id="formation">Formation</h2>
+    <ul>
+        <li><strong>2021-2025 :</strong> Master en E-BUSSINES à Université ESGEN</li>
+        <li><strong>2024 :</strong> stagiaire dans la CNAS en djelfa durant un mois</li>
+        <li><strong>2018-2021 :</strong> Bac en 2021 au Lycée 1er NOVEMBER 1956 en Djelfa</li>
+    </ul>
+
+    <h2>Langues</h2>
+    <ul>
+        <li>arabic : Langue maternelle</li>
+        <li>Anglais : Avancé</li>
+        <li>francais : Intermédiaire</li>
+    </ul>
+
+    <h2 id="interets">Centres d'intérêt</h2>
+    <ul>
+        <li>Sport</li>
+        <li>voice over</li>
+        <li>informatique</li>
+    </ul>
+
+    <h2 id="competences">Compétences</h2>
+    <ol>
+        <li>Suite Microsoft Office : Excel, Word, PowerPoint</li>
+        <li>Compétences en communication</li>
+        <li>Développement Web : HTML, CSS</li>
+    </ol>
+
+    <p>Pour plus d'informations, <a href="infosup.html">cliquez ici</a>.</p>
+</body>
+</html>
